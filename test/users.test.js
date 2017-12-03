@@ -12,9 +12,9 @@
 
   User = require("../lib/models").User;
 
-  before(function(done) {
-    return testHelpers.clearDatabase(done);
-  });
+  //before(function(done) {
+    //return testHelpers.clearDatabase(done);
+  //});
 
   describe("Database test example: Getting data from db", function() {
     var getUser;
